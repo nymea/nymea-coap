@@ -4,7 +4,6 @@ Constrained Application Protocol (CoAP) library written in Qt.
 
 The nymea-coap lib allowes you communicate with a CoAP server according to the [RFC7252](https://tools.ietf.org/html/rfc7252) standard.
 
-=====================================================================
 ## Lib features
 
 * Queue for nonblocking multiple requests (FIFO) for each host
@@ -20,7 +19,6 @@ The nymea-coap lib allowes you communicate with a CoAP server according to the [
 * CoRE (Constrained RESTful Environments) link format parser [RFC6690](http://tools.ietf.org/html/rfc6690)
 * Tests using the online CoAP server [coap://coap.me/](http://coap.me/) and [coap://vs0.inf.ethz.ch/](http://vs0.inf.ethz.ch/)
 
-=====================================================================
 ## The coap-cli tool
 
     $ coap-cli --help
@@ -76,7 +74,6 @@ The nymea-coap lib allowes you communicate with a CoAP server according to the [
     
         $ coap-cli --observe coap://vs0.inf.ethz.ch/obs
     
-=====================================================================
 ## Use nymea-coap in your project
 
 #### Using the `libnymea-coap`
@@ -92,7 +89,6 @@ You can copy the `coap` folder into your Qt project structure and include the `c
 
         include(coap/coap.pri)
 
-=====================================================================
 ## Example
 This example shows you the basic usage of the nymea-coap lib:
 
@@ -126,7 +122,6 @@ void MyClass::onReplyFinished(CoapReply *reply)
 For more examples please checkout the coaptests and the `coap-cli` source code. 
 There is a test case for almost every resource on [coap://coap.me/](http://coap.me/) and observing on [coap://vs0.inf.ethz.ch/](http://vs0.inf.ethz.ch/).
 
-=====================================================================
 ## License
 
 nymea-coap is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License. 
