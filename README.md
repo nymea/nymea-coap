@@ -1,8 +1,8 @@
-# QtCoap
+# nymea-coap
 
 Constrained Application Protocol (CoAP) library written in Qt.
 
-The QtCoap lib allowes you communicate with a CoAP server according to the [RFC7252](https://tools.ietf.org/html/rfc7252) standard.
+The nymea-coap lib allowes you communicate with a CoAP server according to the [RFC7252](https://tools.ietf.org/html/rfc7252) standard.
 
 =====================================================================
 ## Lib features
@@ -29,7 +29,7 @@ The QtCoap lib allowes you communicate with a CoAP server according to the [RFC7
 
     coap-cli is a command line tool which allowes to interact with a CoAP server.
     Version: 1.0.0
-    Copyright © 2016 Simon Stürz <stuerz.simon@gmail.com>
+    Copyright © 2016 Simon Stürz <simon.stuerz@nymea.io>
     Released under the GNU GENERAL PUBLIC LICENSE Version 3.
     
     Options:
@@ -77,13 +77,13 @@ The QtCoap lib allowes you communicate with a CoAP server according to the [RFC7
         $ coap-cli --observe coap://vs0.inf.ethz.ch/obs
     
 =====================================================================
-## Use QtCoap in your project
+## Use nymea-coap in your project
 
-#### Using the `libqtcoap`
+#### Using the `libnymea-coap`
 
 You can checkout the `coapclient.pro` file or the `coaptests.pro` to see how the lib will be included into your project:
 
-        LIBS += -L/path/to/the/lib/libqtcoap/ -lqtcoap
+        LIBS += -L/path/to/the/lib/libnymea-coap/ -lnymea-coap
         INCLUDEPATH += /path/to/this/repository/coap
 
 #### Using the `coap.pri` (like `coap-cli`)
@@ -94,7 +94,7 @@ You can copy the `coap` folder into your Qt project structure and include the `c
 
 =====================================================================
 ## Example
-This example shows you the basic usage of the QtCoap lib:
+This example shows you the basic usage of the nymea-coap lib:
 
 ```cpp
 
@@ -129,7 +129,7 @@ There is a test case for almost every resource on [coap://coap.me/](http://coap.
 =====================================================================
 ## License
 
-QtCoap is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License. 
+nymea-coap is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3 of the License. 
 
-You should have received a copy of the GNU General Public License along with QtCoap. If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/). 
+You should have received a copy of the GNU General Public License along with nymea-coap. If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/). 
 

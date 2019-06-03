@@ -1,0 +1,3 @@
+usr/lib/@DEB_HOST_MULTIARCH@/libnymea-coap1.so
+usr/include/nymea-coap/* usr/include/nymea-coap
+

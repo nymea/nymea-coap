@@ -1,4 +1,4 @@
-TARGET = libqtcoap-tests
+TARGET = libnymea-coap-tests
 
 CONFIG += testcase
 
@@ -8,7 +8,7 @@ QMAKE_LFLAGS += -std=c++11
 QT += testlib network
 
 INCLUDEPATH += ../coap
-LIBS += -L../libqtcoap/ -lqtcoap1
+LIBS += -L../libnymea-coap/ -lnymea-coap1
 
 SOURCES += \
     coaptests.cpp
