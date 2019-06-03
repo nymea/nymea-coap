@@ -1,14 +1,18 @@
-TARGET = nymea-coap1
+include(../nymea-coap.pri)
+
+TARGET = nymea-coap
 TEMPLATE = lib
 
-target.path = /usr/lib
+include(libnymea-coap.pri)
 
-QMAKE_CXXFLAGS += -Werror -std=c++11
-QMAKE_LFLAGS += -std=c++11
+# The .pri is made for other projects to include it in a static manner
+# Change it to build a shared lib here.
+CONFIG -= static
+CONFIG += shared
 
-include(../coap/coap.pri)
+target.path = $$[QT_INSTALL_LIBS]
 
-headers.path    = /usr/include/nymea-coap/
-headers.files   += $$HEADERS
+headers.files += $$HEADERS
+headers.path = /usr/include/nymea-coap/
 
 INSTALLS += target headers

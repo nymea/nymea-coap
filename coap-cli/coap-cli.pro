@@ -1,16 +1,16 @@
-QT += core network
+include(../nymea-coap.pri)
 
-TARGET = coap-cli
+QT += network
 
 CONFIG += console
 CONFIG -= app_bundle
 
 TEMPLATE = app
 
-QMAKE_CXXFLAGS += -Werror -std=c++11
-QMAKE_LFLAGS += -std=c++11
+TARGET = coap-cli
 
-include(../coap/coap.pri)
+INCLUDEPATH += $$top_srcdir/libnymea-coap/
+LIBS += -L$$top_builddir/libnymea-coap/ -lnymea-coap
 
 SOURCES += main.cpp \
     core.cpp
