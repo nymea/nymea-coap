@@ -4,6 +4,9 @@ TARGET = libnymea-coap-tests
 
 CONFIG += testcase
 
+QMAKE_LFLAGS_RPATH=
+QMAKE_LFLAGS += "-Wl,-rpath,\'$${top_srcdir}/libnymea-coap\'"
+
 QMAKE_CXXFLAGS += -Werror -std=c++11
 QMAKE_LFLAGS += -std=c++11
 
