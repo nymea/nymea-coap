@@ -1,8 +1,9 @@
 nymea-coap (0.0.2) bionic; urgency=medium
 
+  [ Simon Stürz ]
   * Rename project from qtcoap to nymea-coap
 
- -- Simon Stürz <simon.stuerz@nymea.io>  Mon, 03 Jun 2019 12:08:03 +0200
+ -- Jenkins <jenkins@nymea.io>  Sun, 01 Sep 2019 15:51:00 +0200
 
 qtcoap (0.0.1) xenial; urgency=low
 
