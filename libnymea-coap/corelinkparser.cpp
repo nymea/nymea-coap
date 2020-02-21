@@ -21,7 +21,7 @@
 /*!
     \class CoreLinkParser
     \brief Provides an easy way to parse a CoRE link list.
-
+    \inmodule nymea-coap
     \ingroup coap
 
     \section2 Example
