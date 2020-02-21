@@ -21,7 +21,7 @@
 /*!
     \class CoapReply
     \brief Represents a reply of a CoAP request.
-
+    \inmodule nymea-coap
     \ingroup coap
 
     The CoapReply class contains the data and headers for a request sent with \l{CoapNetworkAccessManager} client.

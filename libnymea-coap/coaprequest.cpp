@@ -21,7 +21,7 @@
 /*!
     \class CoapRequest
     \brief Represents a request to a CoAP server.
-
+    \inmodule nymea-coap
     \ingroup coap
 
 */

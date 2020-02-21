@@ -34,3 +34,4 @@ Makefile*
 *.qmlproject.user.*
 
 .crossbuilder
+docs/nymea-coap-html/

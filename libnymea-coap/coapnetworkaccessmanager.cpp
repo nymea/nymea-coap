@@ -21,7 +21,7 @@
 /*!
     \class CoapNetworkAccessManager
     \brief The client connection class to a CoAP server.
-
+    \inmodule nymea-coap
     \ingroup coap
 
     The CoapNetworkAccessManager class provides a signal solt based communication with a \l{https://tools.ietf.org/html/rfc7252}{CoAP (Constrained Application Protocol)}
